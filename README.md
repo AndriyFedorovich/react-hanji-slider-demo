@@ -2,9 +2,6 @@
 
 **React Hanji Slider** is a React component that allows users to compare two blocks of content interactively. By dragging a slider control, users can unveil or conceal the respective content blocks, providing a visually engaging method for comparing different types of data or images
 
-## Demo
-
-
 ## Installation
 
 If you're using `npm`, in the command prompt run:
