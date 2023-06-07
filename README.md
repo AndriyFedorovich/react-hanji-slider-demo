@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+﻿# React Hanji Slider
 
-## Getting Started
+**React Hanji Slider** is a React component that allows users to compare two blocks of content interactively. By dragging a slider control, users can unveil or conceal the respective content blocks, providing a visually engaging method for comparing different types of data or images.
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+## Installation
+
+If you're using `npm`, in the command prompt run:
+
+```sh
+npm install react-hanji-slider --save
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you're using `yarn`, run:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+yarn add react-hanji-slider
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+To use the component, first import `ReactHanjiSlider` into your file:
 
-To learn more about Next.js, take a look at the following resources:
+```jsx
+import ReactHanjiSlider from "react-hanji-slider";
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```jsx
+<ReactHanjiSlider
+  slidePrimary={<div>Primary Component 🥢</div>}
+  slideSecondary={<div>Secondary Component 🍚</div>}
+/>
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Props
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Property             | Type           | Default     | Description                                          |
+| :--------------------|:---------------|:------------|:-----------------------------------------------------|
+| `slidePrimary`       | `Element`      | `null`      | Used to compare with Secondary component             |
+| `stylePrimary`       | `styles`       | `undefined` | Styles for Primary component wrap                    |
+| `slideSecondary`     | `Element`      | `null`      | Used to compare with Primary component               |
+| `styleSecondary`     | `styles`       | `undefined` | Styles for Secondary component wrap                  |
+| `styleWrap`          | `styles`       | `undefined` | Styles for root wrap                                 |
+| `defaultPercentage`  | `number`       | `50`        | Default proportion of content visibility             |
+| `separatorColor`     | `string`       | `#fff`      | Color of separator                                   |
