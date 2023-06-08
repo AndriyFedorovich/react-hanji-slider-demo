@@ -1809,7 +1809,7 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-hanji-slider@^2.0.0:
+react-hanji-slider@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/react-hanji-slider/-/react-hanji-slider-0.2.0.tgz#9eb83b094fb799f6c3939c8140f9013c4162a6f8"
   integrity sha512-wds2Rksxkyn/i6tBdNox8Js/Ue5kgB7yz9raJvKxpy7vxDmMrY4EpfTp4LYDKx/XdfVCJfRyB912EMgH+RvssQ==
