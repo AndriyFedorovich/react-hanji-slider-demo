@@ -1809,10 +1809,10 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-hanji-slider@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/react-hanji-slider/-/react-hanji-slider-0.1.4.tgz#99b75c8c13f195eb3a38639fc6c1534faa25be29"
-  integrity sha512-+uYDa2zD+WASHH0KnnATgdoGmnYATBOkpP7wrs6wMpmmnh25+O0sZpFXVVMPAKYFLlWqn3XlANVKtGbixJ06jQ==
+react-hanji-slider@^2.0.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-hanji-slider/-/react-hanji-slider-0.2.0.tgz#9eb83b094fb799f6c3939c8140f9013c4162a6f8"
+  integrity sha512-wds2Rksxkyn/i6tBdNox8Js/Ue5kgB7yz9raJvKxpy7vxDmMrY4EpfTp4LYDKx/XdfVCJfRyB912EMgH+RvssQ==
 
 react-is@^16.13.1:
   version "16.13.1"
