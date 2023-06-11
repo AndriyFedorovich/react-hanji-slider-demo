@@ -51,6 +51,7 @@ const Home = () => {
 
           <div className={styles.slider}>
             <HanjiSlider
+              animation={{ step1: 0, step2: 100, step3: 75 }}
               styleSecondary={{ overflow: 'hidden', }}
               stylePrimary={{ overflow: 'hidden', }}
               slidePrimary={
@@ -110,9 +111,6 @@ print(result)
 
               } />
           </div>
-
-
-
         </div>
       </main >
       <footer className={styles.footer}>
