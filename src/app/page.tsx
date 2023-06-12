@@ -1,5 +1,6 @@
 import HanjiSlider from "react-hanji-slider";
 import Image from 'next/image'
+import { Analytics } from '@vercel/analytics/react';
 import primaryImage from './assets/1.jpg';
 import secondaryImage from './assets/2.jpg';
 import gosuLogoImage from './assets/gosu-logo.svg';
@@ -10,6 +11,7 @@ import styles from './page.module.css'
 const Home = () => {
   return (
     <>
+
       <div className={styles.header}>
         <div className={styles.wrap}>
           <div className={styles.headerPanel}>
@@ -126,6 +128,7 @@ print(result)
           </a>
         </div>
       </footer>
+      <Analytics />
     </>
 
   )
